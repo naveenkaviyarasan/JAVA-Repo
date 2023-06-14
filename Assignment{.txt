@@ -1,0 +1,9 @@
+class Assignment{
+pubic static void(String args[]){
+int a = 23;
+int b = 1223;
+a+=99;
+system.out.println(a);
+}
+}
+

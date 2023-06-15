@@ -10,9 +10,9 @@ System.out.println("Enter the B value");
 //Scanner sc = new Scanner(System.in);
 int B = sc.nextInt();
 
-A = A^B;
-B = A^B;
-A = A^B;
+A = A+B;
+B = A-B;
+A = A-B;
 
      System.out.println("After swapping:");
         System.out.println("a = " + A);
